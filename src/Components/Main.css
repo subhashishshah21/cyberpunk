@@ -1,0 +1,40 @@
+.main {
+  max-height: 50vh;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  border-radius: 10px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 50px;
+  font-size: 900;
+}
+.id {
+  font-size: 50px;
+}
+.owner-info {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  color: white;
+}
+.owner_profilepic {
+  height: 50px;
+  border-radius: 50%;
+}
+.socialmedia {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.media-logo > img {
+  height: 80px;
+  margin: 5px;
+}
